@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+h1 {
+  font-size: 2.4rem;
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #666;
+  color: #ccc;
+}
+.add-note {
+  height: 20rem;
+  width: 30rem;
+  margin: 2rem auto;
+  background-color: #d26262;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  border-radius: 2rem;
+}
+
+input {
+  font-size: 2rem;
+  outline: none;
+  border: none;
+}
+button {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+}
+ul {
+  /* width: 80vw; */
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0.4rem;
+  font-size: 1.8rem;
+  /* margin-bottom: 2rem; */
+}
+
+li {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 3rem;
+  word-wrap: break-word;
+  /* white-space: ; */
+}
+textarea {
+  width: 90%;
+  resize: none;
+  padding: 2rem;
+  outline: none;
+  border: none;
+  font-family: inherit;
+}
